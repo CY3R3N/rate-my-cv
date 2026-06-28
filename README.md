@@ -21,7 +21,7 @@ pinned: false
 [![Groq](https://img.shields.io/badge/Groq-LLaMA_3.3-f55036?style=flat)](https://groq.com)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-MiniLM--L6-ffd21e?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co)
 
-![RateMyCV Demo](assets/demo.png)
+![RateMyCV Demo]
 
 </div>
 
@@ -31,7 +31,7 @@ pinned: false
 
 RateMyCV is a portfolio project that uses **Retrieval-Augmented Generation (RAG)** to analyse a candidate's resume against any job description. Upload your CV, paste a JD, and get four AI-powered outputs in seconds — all grounded in your actual experience, no hallucinations.
 
-Built as part of a Master's in Applied Artificial Intelligence (Deakin University), this project demonstrates a production-style RAG pipeline from document ingestion through to LLM-generated outputs and a deployed web UI.
+This project demonstrates a production-style RAG pipeline from document ingestion through to LLM-generated outputs and a deployed web UI.
 
 ---
 
@@ -161,8 +161,8 @@ ratemycv/
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/ratemycv.git
-cd ratemycv
+git clone https://github.com/CY3R3N/rate-my-cv.git
+cd rate-my-cv
 
 # Create and activate virtual environment
 python -m venv venv
@@ -227,7 +227,7 @@ Open your browser at `http://localhost:8501`
 **Ahnaf Ar Rasheed**
 Master's in Applied Artificial Intelligence — Deakin University, Melbourne
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat&logo=linkedin)](https://linkedin.com/in/ahnaf-rasheed24)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0a66c2?style=flat&logo=linkedin)](https://www.linkedin.com/in/cyeren24/)
 [![GitHub](https://img.shields.io/badge/GitHub-CY3R3N-181717?style=flat&logo=github)](https://github.com/CY3R3N)
 
 ---
