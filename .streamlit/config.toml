@@ -6,3 +6,4 @@ showSidebarNavigation = false
 
 [server]
 headless = true
+maxUploadSize = 5

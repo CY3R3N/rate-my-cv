@@ -75,7 +75,7 @@ print(f"\n--- Cover Letter ---\n{cover_letter}")
 
 # gap analyzer and interview prep
 
-from llm.prompts.gap_analyser import get_gap_analysis
+from src.llm.prompts.gap_analyser import get_gap_analysis
 from src.llm.prompts.interview_prep import get_interview_prep
 
 gaps = get_gap_analysis(llm, resume_context, job_description)
@@ -83,3 +83,12 @@ print(f"\n--- Gap Analysis ---\n{gaps}")
 
 interview = get_interview_prep(llm, resume_context, job_description)
 print(f"\n--- Interview Prep ---\n{interview}")
+
+from src.llm.prompts.ats_scanner import get_ats_scan
+
+ats = get_ats_scan(llm, resume_context, job_description)
+print(f"\n--- ATS Scan ---")
+print(f"ATS Score: {ats['ats_score']}")
+print(f"Found: {ats['found']}")
+print(f"Missing: {ats['missing']}")
+print(f"Verdict: {ats['verdict']}")
